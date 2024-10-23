@@ -1,0 +1,31 @@
+.diagonal-bg {
+  background: linear-gradient(158deg, #300e64 50%, #ddddef 50%);
+}
+
+.agdasima-regular {
+  font-family: "Agdasima", sans-serif;
+  font-weight: 100;
+}
+
+.service-card {
+  position: relative;
+  overflow: visible;
+  min-height: 300px;
+  transition: transform 0.5s ease;
+}
+
+.service-card:hover {
+  transform: rotate(360deg);
+}
+
+.image {
+  position: relative;
+  left: 37%;
+  top: 10%;
+  height: 95px;
+  width: 95px;
+  background-color: white;
+  border: 4px solid #300e64;
+  border-radius: 9999px;
+  z-index: 2;
+}
